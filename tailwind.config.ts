@@ -16,6 +16,7 @@ const config: Config = {
 
      },
      colors: {
+        "primary-600": "#2596BE",
         "primary-500": "#800080",
         "primary-400": "#A151F1",
         "primary-300": "#782F78",
@@ -25,7 +26,7 @@ const config: Config = {
          "accent-300":"#FB923C",
     },
     backgroundImage: {
-      hero: "url(/images/realbenefitGraphic.jpg)"
+      hero: "url(/images/her1Design.jpg)"
     },
       
     },

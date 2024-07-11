@@ -4,13 +4,13 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      className=" w-full h-screen mt-[4px] pt-[10px]   bg-hero bg-no-repeat
-       bg-cover  "
+      className=" w-full h-[calc(100vh-60px)] mt-[60px] pt-[90px] ,    first-letter: bg-hero bg-no-repeat
+       bg-cover bg-center rounded-[20px] font-medium
+        md:min-h-[700px] m-4 md:m-8 "
     >
       <div className=" p-24"></div>
       <div className="  flex-col align-top container">
         <h1 className=" text-4xl font-bold font-serif leading-tight text-white">
-          Welcome
           <br />
           To i-fitness
           <br className="hidden md:block" /> where Fitness{" "}
